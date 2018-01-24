@@ -1,7 +1,7 @@
 # Write your code here.
 katz_deli = []
 
-def deli_counter
+def line
   #
 end
 
