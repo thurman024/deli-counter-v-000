@@ -3,10 +3,11 @@ katz_deli = []
 
 def line(katz_deli)
   if katz_deli.size > 0
-    print "The line is currently "
+    deli_line = []
     katz_deli.each_with_index do |person, index|
-      print "#{index+1}. #{person}"
+      deli_line << "#{index+1}. #{person}"
     end
+    puts "The line is currently: " + deli_line.join(" ")
   else
     puts "The line is currently empty."
   end
