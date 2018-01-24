@@ -13,8 +13,9 @@ def line(katz_deli)
   end
 end
 
-def take_a_number
-  #
+def take_a_number(katz_deli, person)
+  puts "Welcome, #{person}. You are number #{katz_deli.size + 1} in line."
+  katz_deli << person
 end
 
 def now_serving
