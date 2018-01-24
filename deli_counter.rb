@@ -8,7 +8,7 @@ def line(katz_deli)
       print "#{index+1}. #{person}"
     end
   else
-    print "The line is currently empty"
+    print "The line is currently empty."
   end
 end
 
